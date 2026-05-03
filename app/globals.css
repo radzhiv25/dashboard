@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+:root {
+  --orbis-bg: #050608;
+  --orbis-accent: #63cab7;
+  --orbis-surface: rgba(255, 255, 255, 0.03);
+  --orbis-border: rgba(255, 255, 255, 0.12);
+}
+
+@theme inline {
+  --color-orbis-bg: var(--orbis-bg);
+  --color-orbis-accent: var(--orbis-accent);
+  --font-sans: var(--font-syne), ui-sans-serif, system-ui, sans-serif;
+  --font-mono: var(--font-jetbrains-mono), ui-monospace, monospace;
+}
+
+body {
+  background-color: var(--orbis-bg);
+  color: rgb(244 244 245);
+}
